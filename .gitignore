@@ -2,6 +2,8 @@
 target/
 **/*.rs.bk
 Cargo.lock
+contracts/target/
+contracts/test_snapshots/
 
 # Node / Frontend
 node_modules/
