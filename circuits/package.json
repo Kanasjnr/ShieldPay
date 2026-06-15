@@ -1,0 +1,16 @@
+{
+  "name": "stellar-shield-circuits",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "nargo test",
+    "compile": "nargo compile --package transfer && nargo compile --package deposit && nargo compile --package withdraw",
+    "sync-prover": "node scripts/compute-public-inputs.mjs",
+    "prove": "bash scripts/test-and-prove.sh"
+  },
+  "devDependencies": {
+    "@aztec/bb.js": "0.87.0",
+    "@noir-lang/noir_js": "1.0.0-beta.22"
+  }
+}

@@ -1,0 +1,8 @@
+[package]
+name = "withdraw"
+type = "bin"
+authors = ["Stellar Shield Wallet"]
+
+[dependencies]
+common = { path = "../common" }
+poseidon = { git = "https://github.com/noir-lang/poseidon", tag = "v0.3.0" }

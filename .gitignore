@@ -8,8 +8,11 @@ node_modules/
 dist/
 .env
 .env.local
+circuits/node_modules/
+circuits/package-lock.json
 
 # ZK / Noir
 target/
 decisions/
 proofs/
+circuits/target/
